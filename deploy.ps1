@@ -1,0 +1,2 @@
+gcloud builds submit . --tag gcr.io/fbms-shreeva-demo/viraj-fbms
+gcloud run deploy viraj-fbms --image gcr.io/fbms-shreeva-demo/viraj-fbms --platform managed --allow-unauthenticated --region us-central1
